@@ -8,6 +8,13 @@ WalkWindow::WalkWindow(QWidget *parent) :
     ui->setupUi(this);
 }
 
+
+
+QString QDoubleSpinBox::textFromValue(double val) const
+{
+    return QWidget::locale().toString(val, 'g', 6);
+}
+
 WalkWindow::~WalkWindow()
 {
     delete ui;

@@ -300,12 +300,91 @@ QGroupBox::title{
     <property name="title">
      <string>Path Settings</string>
     </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>42</x>
+       <y>25</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Path Length:</string>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="spin_walk_dist">
+     <property name="geometry">
+      <rect>
+       <x>139</x>
+       <y>20</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Length of the entire path
+(Not used with Canned walking)</string>
+     </property>
+     <property name="decimals">
+      <number>20</number>
+     </property>
+     <property name="singleStep">
+      <double>0.100000000000000</double>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="spin_walk_circle_radius">
+     <property name="geometry">
+      <rect>
+       <x>139</x>
+       <y>47</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Length of the entire path
+(Not used with Canned walking)</string>
+     </property>
+     <property name="decimals">
+      <number>20</number>
+     </property>
+     <property name="singleStep">
+      <double>0.100000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>51</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Circle Radius:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="check_walk_sideways">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>80</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Walk Sideways</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>260</y>
+      <y>270</y>
       <width>341</width>
       <height>111</height>
      </rect>
@@ -329,12 +408,78 @@ QGroupBox::title{
     <property name="title">
      <string>Swing Foot Settings</string>
     </property>
+    <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>48</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Length of the entire path
+(Not used with Canned walking)</string>
+     </property>
+     <property name="decimals">
+      <number>20</number>
+     </property>
+     <property name="singleStep">
+      <double>0.100000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>52</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Step Distance:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>26</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Foot Liftoff Height:</string>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="spin_foot_liftoff_z">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>21</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Length of the entire path
+(Not used with Canned walking)</string>
+     </property>
+     <property name="decimals">
+      <number>20</number>
+     </property>
+     <property name="singleStep">
+      <double>0.100000000000000</double>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>380</y>
+      <y>390</y>
       <width>341</width>
       <height>111</height>
      </rect>
@@ -363,7 +508,7 @@ QGroupBox::title{
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>360</y>
+      <y>290</y>
       <width>341</width>
       <height>131</height>
      </rect>
@@ -392,7 +537,7 @@ QGroupBox::title{
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>220</y>
+      <y>170</y>
       <width>341</width>
       <height>111</height>
      </rect>
