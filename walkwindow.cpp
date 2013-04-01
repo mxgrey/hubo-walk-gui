@@ -19,3 +19,5 @@ WalkWindow::~WalkWindow()
 {
     delete ui;
 }
+
+
