@@ -166,7 +166,7 @@
      <string>#directory</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pb_directory">
     <property name="geometry">
      <rect>
       <x>338</x>
@@ -203,7 +203,7 @@ Circle: Walk along some circle of constant radius</string>
      <string>Walking Type:</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="list_walktype">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -242,7 +242,7 @@ Sloppy: Never run this on the robot!!</string>
      <string>IK Sensitivity:</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_2">
+   <widget class="QComboBox" name="list_sensitivity">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -295,7 +295,7 @@ Sloppy: Never run this on the robot!!</string>
      <string>Step Count:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pb_send">
     <property name="geometry">
      <rect>
       <x>576</x>
@@ -530,7 +530,7 @@ QGroupBox::title{
     <property name="title">
      <string>Swing Foot Settings</string>
     </property>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+    <widget class="QDoubleSpinBox" name="spin_step_distance">
      <property name="geometry">
       <rect>
        <x>174</x>
@@ -631,7 +631,7 @@ QGroupBox::title{
       <string>Lateral Distance:</string>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+    <widget class="QDoubleSpinBox" name="spin_footstep_y">
      <property name="geometry">
       <rect>
        <x>174</x>
@@ -682,7 +682,7 @@ QGroupBox::title{
     <property name="title">
      <string>Center of Mass Settings</string>
     </property>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+    <widget class="QDoubleSpinBox" name="spin_com_height">
      <property name="geometry">
       <rect>
        <x>174</x>
@@ -723,7 +723,7 @@ QGroupBox::title{
       <string>Center of Mass Height:</string>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+    <widget class="QDoubleSpinBox" name="spin_angle_weight">
      <property name="geometry">
       <rect>
        <x>174</x>
@@ -793,7 +793,7 @@ QGroupBox::title{
     <property name="title">
      <string>Time Settings</string>
     </property>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_15">
+    <widget class="QDoubleSpinBox" name="spin_double_support">
      <property name="geometry">
       <rect>
        <x>165</x>
@@ -853,7 +853,7 @@ QGroupBox::title{
       <string>Startup Time:</string>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_12">
+    <widget class="QDoubleSpinBox" name="spin_startup">
      <property name="geometry">
       <rect>
        <x>165</x>
@@ -875,7 +875,7 @@ QGroupBox::title{
       <double>0.100000000000000</double>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_14">
+    <widget class="QDoubleSpinBox" name="spin_shutdown">
      <property name="geometry">
       <rect>
        <x>165</x>
@@ -916,7 +916,7 @@ QGroupBox::title{
       <string>Single Support Time:</string>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_13">
+    <widget class="QDoubleSpinBox" name="spin_single_support">
      <property name="geometry">
       <rect>
        <x>165</x>
@@ -986,7 +986,7 @@ QGroupBox::title{
     <property name="title">
      <string>ZMP Settings</string>
     </property>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+    <widget class="QDoubleSpinBox" name="spin_zmp_x">
      <property name="geometry">
       <rect>
        <x>165</x>
@@ -1046,7 +1046,7 @@ QGroupBox::title{
       <string>Y-Offset:</string>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+    <widget class="QDoubleSpinBox" name="spin_zmp_y">
      <property name="geometry">
       <rect>
        <x>165</x>
@@ -1087,7 +1087,7 @@ QGroupBox::title{
       <string>Jerk Penalty:</string>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+    <widget class="QDoubleSpinBox" name="spin_jerk_penalty">
      <property name="geometry">
       <rect>
        <x>165</x>
@@ -1109,7 +1109,7 @@ QGroupBox::title{
       <double>0.100000000000000</double>
      </property>
     </widget>
-    <widget class="QDoubleSpinBox" name="doubleSpinBox_11">
+    <widget class="QDoubleSpinBox" name="spin_lookahead">
      <property name="geometry">
       <rect>
        <x>165</x>
